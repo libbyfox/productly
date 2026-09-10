@@ -1,0 +1,82 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15px;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hero__image {
+    width: 605px;   
+    height: 496px;
+    position: relative;
+}
+
+.hero__image img {
+    max-width: 100%;
+}
+
+.hero__image {
+    position: relative;
+}
+
+.hero__image img:first-child {
+    position: absolute;
+    top: -40px;
+    left: -60px;
+    width: 467px;
+    height: 438px;
+    z-index: 0;
+}
+
+.hero__image img:last-child {
+    position: relative;
+    z-index: 1;
+}
+
+.hero__text {
+    width: 518px;
+}
+
+.hero__text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.hero__text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.hero__text button {
+    width: 175px;
+    height: 53px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.hero__text a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.hero__text a img {
+    width: 20px;
+    height: 17px;
+}
