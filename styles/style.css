@@ -8,6 +8,7 @@ header {
 .hero {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1100px;
     margin: 70px auto 0;
 }
@@ -230,7 +231,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 1100px;
-    margin: 100px auto 0;
+    margin: 130px auto 0;
     font-family: "Poppins", sans-serif;
 }
 
