@@ -8,8 +8,8 @@ header {
 .hero {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
-    margin: 50px auto 0;
+    width: 1100px;
+    margin: 70px auto 0;
 }
 
 .hero__image {
@@ -56,6 +56,7 @@ header {
     font-weight: 600;
     color: #FF9900;
     text-decoration: none;
+    margin-left: 15px;
 }
 
 .hero__text a img {
@@ -63,11 +64,52 @@ header {
     height: 17px;
 }
 
+.hero__text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-bottom: 40px;
+}
+
+.hero__text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
 nav a {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
     color: #2F281E;
     text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav__button {
+    padding: 10px 20px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav__button--signin {
+    color: #173A56;
+    background-color: white;
+}
+
+.nav__button--signup {
+    color: white;
+    background-color: #FF9900;
+    border-color: #FF9900;
 }
 
 .features {
@@ -171,6 +213,8 @@ nav a {
 .professionals p {
     font-size: 13px;
     line-height: 20px;
+    margin-bottom: 15px;
+
 }
 
 .professionals__image {
@@ -189,3 +233,163 @@ nav a {
     margin: 100px auto 0;
     font-family: "Poppins", sans-serif;
 }
+
+.managers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 100px auto 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.managers__image {
+    width: 450px;
+}
+
+.managers__image img {
+    max-width: 100%;
+}
+
+.managers__text {
+    width: 500px;
+}
+
+.managers__subtitle {
+    font-size: 16px;
+}
+
+.managers h2 {
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.managers__text > p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.managers__point {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.managers__point span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 27px;
+    height: 27px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #FF9900;
+    color: white;
+    font-size: 16px;
+}
+
+.managers__point p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.marketers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 100px auto 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.marketers__text {
+    width: 500px;
+}
+
+.marketers__subtitle {
+    font-size: 16px;
+    margin-bottom: 5px;
+
+}
+
+.marketers h2 {
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.marketers__text > p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.marketers h3 {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.marketers__image {
+    width: 500px;
+}
+
+.marketers__image img {
+    max-width: 100%;
+}
+
+.footer {
+    width: 1100px;
+    margin: 100px auto 0;
+    padding-top: 75px;
+    border-top: 1px solid #BCD0E5;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo img {
+    width: 140px;
+}
+
+.footer__links {
+    display: flex;
+    gap: 100px;
+}
+
+.footer__links div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links a {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #544837;
+    text-decoration: none;
+}
+
+.footer__signup {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__signup input {
+    width: 245px;
+    height: 36px;
+    border: 1px solid #BCD0E5;
+}
+
+.footer__signup button {
+    width: 98px;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    background-color: #FF9900;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
